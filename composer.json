@@ -1,5 +1,5 @@
 {
-    "name": "PB90/PHPSessions",
+    "name": "pb90/phpsessions",
     "description": "Adding vars to session in Twig",
     "type": "bolt-extension",
     "keywords" : [ "foo", "bar" ],
