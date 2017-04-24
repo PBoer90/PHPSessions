@@ -1,0 +1,31 @@
+{
+    "name": "PB90/PHPSessions",
+    "description": "Adding vars to session in Twig",
+    "type": "bolt-extension",
+    "keywords" : [ "foo", "bar" ],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Boer", 
+            "email": "pboer90@gmail.com"
+        }
+    ],
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\PB90\\PHPSessions\\": "",
+            "Bolt\\Extension\\PB90\\PHPSessions\\Tests\\": "tests"
+        }
+    },
+    
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
